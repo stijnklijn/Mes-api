@@ -14,6 +14,7 @@ public class MesApplication {
     Verwerkte afleveringen:
     2012 najaar afl 1.
     2013 voorjaar afl 1.
+    2013 voorjaar afl 2.
      */
 
     public static void main(String[] args) {

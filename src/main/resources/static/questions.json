@@ -241,7 +241,7 @@
   },
   {
     "id": 33,
-    "content": "De scrhijvers Heijermans, Koch en De Koning delen dezelfde voornaam. Welke?",
+    "content": "De schrijvers Heijermans, Koch en De Koning delen dezelfde voornaam. Welke?",
     "correctAnswers": [
       "Herman"
     ]
@@ -305,6 +305,169 @@
     "content": "Welke titel voeren mannelijke erfgenamen van de Engelse troon sinds 1301?",
     "correctAnswers": [
       "Prince of Wales"
+    ]
+  },
+  {
+    "id": 42,
+    "content": "Hoe heet het Amerikaanse zakenblad dat jaarlijks een lijst van de 500 rijkste mensen publiceert?",
+    "correctAnswers": [
+      "Forbes"
+    ]
+  },
+  {
+    "id": 43,
+    "content": "Hoe heet de kunststof die begin vorige eeuw werd gebruikt voor deurklinken, radiokasten en telefoons? Het is genoemd naar de uitvinder.",
+    "correctAnswers": [
+      "Bakeliet"
+    ]
+  },
+  {
+    "id": 44,
+    "content": "Wie werd er geroepen uit het brandende braambos?",
+    "correctAnswers": [
+      "Mozes"
+    ]
+  },
+  {
+    "id": 45,
+    "content": "Hoeveel is twee tot de zesde macht?",
+    "correctAnswers": [
+      "64",
+      "Vierenzestig"
+    ]
+  },
+  {
+    "id": 46,
+    "content": "Welk woord komt er op de puntjes in het lied van West Ham United? 'I'm forever blowing bubbles, pretty bubbles in the...'",
+    "correctAnswers": [
+      "Air"
+    ]
+  },
+  {
+    "id": 47,
+    "content": "Hij is de zoon van acteur Gijs Scholten van Aschat en won in 2012 het Gouden Kalf voor beste acteur voor zijn rol als jonge Holleeder in 'De Heineken ontvoering'. Wat is zijn voornaam?",
+    "correctAnswers": [
+      "Reinout"
+    ]
+  },
+  {
+    "id": 48,
+    "content": "Hoe heet in de Romeinse mythologie de koningin van de goden? Bij de Grieken heet ze Hera.",
+    "correctAnswers": [
+      "Juno"
+    ]
+  },
+  {
+    "id": 49,
+    "content": "In de elfde en twaalfde eeuw was er een conflict tussen de Duitse keizer Hendrik de vierde en Paus Gregorius de zevende. Uiteindelijk moest de keizer boete doen door drie dagen lang in de sneeuw te lopen voor een kasteel van de paus. In welke Italiaanse plaats ligt dat kasteel?",
+    "correctAnswers": [
+      "Canossa"
+    ]
+  },
+  {
+    "id": 50,
+    "content": "Wie komt er volgens de zegswijze voorbij als het gesprek in een gezelschap ineens stilvalt?",
+    "correctAnswers": [
+      "Dominee",
+      "De dominee"
+    ]
+  },
+  {
+    "id": 51,
+    "content": "Welke Nederlandse actrice speelt de rol van Melisandre in de Amerikaanse TV-serie 'Game of Thrones', die zich afspeelt in de Middeleeuwen? ",
+    "correctAnswers": [
+      "Carice van Houten",
+      "Van Houten"
+    ]
+  },
+  {
+    "id": 52,
+    "content": "Hoe noemen we een kunststof hulsje dat door verwarming slinkt en zo een isolerende afsluiting vormt voor bedrading?",
+    "correctAnswers": [
+      "Krimpkous"
+    ]
+  },
+  {
+    "id": 53,
+    "content": "Het is een Zuid-Afrikaanse druif, een Nederlandse kunstschilder en een bouwmateriaal. Welk woord zoek ik?",
+    "correctAnswers": [
+      "Steen"
+    ]
+  },
+  {
+    "id": 54,
+    "content": "In welke Nederlandse stad staat het Nationaal Glasmuseum?",
+    "correctAnswers": [
+      "Leerdam"
+    ]
+  },
+  {
+    "id": 55,
+    "content": "Over wie zei de schaker Bobby Fisher: 'Met zwart zou ik geen schijn van kans tegen hem maken, maar met wit speel ik gewoon Spaans. Dat is zo'n uitgebalanceerde opening, dan maakt ie me niks'?",
+    "correctAnswers": [
+      "God"
+    ]
+  },
+  {
+    "id": 56,
+    "content": "Wat is in de scheikunde de eenheid voor een standaardhoeveelheid deeltjes in een stof?",
+    "correctAnswers": [
+      "Mol"
+    ]
+  },
+  {
+    "id": 57,
+    "content": "Welke Britse actrice nam in 2012 voor de zevende keer de rol op zich van M in de James Bond-film?",
+    "correctAnswers": [
+      "Judy Dench",
+      "Dench"
+    ]
+  },
+  {
+    "id": 58,
+    "content": "Onder wiens leiding werd in 1869 het Suezkanaal voltooid?",
+    "correctAnswers": [
+      "Ferdinand de Lesseps",
+      "De Lesseps"
+    ]
+  },
+  {
+    "id": 59,
+    "content": "Een auto heeft een tank van 60 liter die voor 75% gevuld is. De auto rijdt 15 kilometer op een liter brandstof. Hoeveel kilometer kan de auto nog rijden?",
+    "correctAnswers": [
+      "675"
+    ]
+  },
+  {
+    "id": 60,
+    "content": "Hoe heet de instantie in Tiel waar alle schulden van Nederlanders worden bijgehouden?",
+    "correctAnswers": [
+      "Bureau Kredietregistratie",
+      "Bureau Krediet Registratie",
+      "BKR"
+    ]
+  },
+  {
+    "id": 61,
+    "content": "Hoe noemt men het zachtjes ronddraaien van een wijsglas om zo de geuren los te laten komen?",
+    "correctAnswers": [
+      "Walsen"
+    ]
+  },
+  {
+    "id": 62,
+    "content": "Met de strijdkreet 'glasnost en perestrojka' brak Gorbatsjov de oude Sovjet-Unie open. Glasnost betekent 'openheid', maar wat betekent perestrojka?",
+    "correctAnswers": [
+      "Hervorming",
+      "Herstructurering"
+    ]
+  },
+  {
+    "id": 63,
+    "content": "In welke stad vinden we Museum Panorama Mesdag?",
+    "correctAnswers": [
+      "Den Haag",
+      "'s Gravenhage"
     ]
   }
 ]
