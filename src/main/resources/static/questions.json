@@ -154,6 +154,7 @@
     "id": 21,
     "content": "In welke Amerikaanse staat vinden we Joshua Tree National Park en Yosemite National Park?",
     "correctAnswers": [
+      "Californie",
       "Californië",
       "California"
     ]
@@ -449,7 +450,7 @@
   },
   {
     "id": 61,
-    "content": "Hoe noemt men het zachtjes ronddraaien van een wijsglas om zo de geuren los te laten komen?",
+    "content": "Hoe noemt men het zachtjes ronddraaien van een wijnglas om zo de geuren los te laten komen?",
     "correctAnswers": [
       "Walsen"
     ]
@@ -468,6 +469,366 @@
     "correctAnswers": [
       "Den Haag",
       "'s Gravenhage"
+    ]
+  },
+  {
+    "id": 64,
+    "content": "Welke Italiaanse dichter en schrijver had als achternaam Alighieri? We kennen hem meestal bij zijn voornaam.",
+    "correctAnswers": [
+      "Dante"
+    ]
+  },
+  {
+    "id": 65,
+    "content": "Hoeveel blokjes van 3x3x3 passen er in een doos van 6x6x6?",
+    "correctAnswers": [
+      "8", "Acht"
+    ]
+  },
+  {
+    "id": 66,
+    "content": "Biesheuvel, Aantjes en Roolvink waren lid van de partij die door Abraham Kuyper is opgericht. Hoe heet die partij?",
+    "correctAnswers": [
+      "Anti-Revolutionaire Partij",
+      "Anti Revolutionaire Partij",
+      "Antirevolutionaire Partij",
+      "ARP"
+    ]
+  },
+  {
+    "id": 67,
+    "content": "Hoe heet de spoorlijn tussen Zwolle en Lelystad?",
+    "correctAnswers": [
+      "Hanzelijn"
+    ]
+  },
+  {
+    "id": 68,
+    "content": "Hoe noemen we een troep herten, wolven of honden?",
+    "correctAnswers": [
+      "Roedel"
+    ]
+  },
+  {
+    "id": 69,
+    "content": "Hoe heet de zanger van 'The Banana Boat Song'? Hij verkocht als eerste zwarte zanger meer dan een miljoen albums.",
+    "correctAnswers": [
+      "Harry Belafonte",
+      "Belafonte"
+    ]
+  },
+  {
+    "id": 70,
+    "content": "Het hart bestaat uit twee kamers en twee ...?",
+    "correctAnswers": [
+      "Boezems"
+    ]
+  },
+  {
+    "id": 71,
+    "content": "In welk land kun je de kalksteenterrassen van Pamukkale bewonderen, die samen met de aangrenzende ruïnestad Hierapolis op de werelderfgoedlijst staan?",
+    "correctAnswers": [
+      "Turkije"
+    ]
+  },
+  {
+    "id": 72,
+    "content": "Hoe heet het als een timmerman een schroef na het voorboren zo ver in het hout draait dat de kop onder het oppervlak komt?",
+    "correctAnswers": [
+      "Verzinken",
+      "Verzonken"
+    ]
+  },
+  {
+    "id": 73,
+    "content": "Van welke Nederlandse band zijn de hits 'Mon Amour' en 'Chanson D'Amour'?",
+    "correctAnswers": [
+      "BZN",
+      "Band Zonder Naam"
+    ]
+  },
+  {
+    "id": 74,
+    "content": "Welke Griekse god van de zee was de plaaggeest van Odysseus?",
+    "correctAnswers": [
+      "Poseidon"
+    ]
+  },
+  {
+    "id": 75,
+    "content": "Uit welk programma kennen we de bekende zin 'Dit is mijn uitspraak en hier zult u het mee moeten doen'?",
+    "correctAnswers": [
+      "De Rijdende Rechter",
+      "Rijdende Rechter"
+    ]
+  },
+  {
+    "id": 76,
+    "content": "Ruud van Nistelrooij zette in 2012 vrij onverwacht een punt achter zijn carrière. Bij welke club speelde hij voor het laatst? ",
+    "correctAnswers": [
+      "Málaga CF",
+      "Málaga Club de Fútbol",
+      "Málaga",
+      "Malaga CF",
+      "Malaga Club de Fútbol",
+      "Malaga",
+      "Málaga Club de Futbol",
+      "Malaga Club de Futbol"
+    ]
+  },
+  {
+    "id": 77,
+    "content": "Over welke FBI-baas zei Lyndon B. Johnson 'Het is beter om hem in de tent te hebben terwijl hij naar buiten plast in plaats van van buiten de tent naar binnen?'",
+    "correctAnswers": [
+      "John Edgar Hoover",
+      "J. Edgar Hoover",
+      "Edgar Hoover",
+      "Hoover"
+    ]
+  },
+  {
+    "id": 78,
+    "content": "Hoeveel vlakken heeft een piramide?",
+    "correctAnswers": [
+      "5",
+      "Vijf"
+    ]
+  },
+  {
+    "id": 79,
+    "content": "Het is de kleur geel in het Spaans, het is een plaats in Texas, en een lied van Neil Sedaka. Welk woord zoek ik?",
+    "correctAnswers": [
+      "Amarillo"
+    ]
+  },
+  {
+    "id": 80,
+    "content": "Welke Engelse zangeres zingt de titelsong van Skyfall, de 23e James Bond film?",
+    "correctAnswers": [
+      "Adele"
+    ]
+  },
+  {
+    "id": 81,
+    "content": "Van welk land zijn Moravië en Bohemen historische regio's?",
+    "correctAnswers": [
+      "Tsjechië",
+      "Tsjechie"
+    ]
+  },
+  {
+    "id": 82,
+    "content": "Denk aan het liedje 'Schuitje Varen, Theetje Drinken'. Wat mag het kindje niet?",
+    "correctAnswers": [
+      "Jokken"
+    ]
+  },
+  {
+    "id": 83,
+    "content": "'Verstoor mijn cirkels niet!' riep Archimedes voordat hij werd gedood door een Romeinse soldaat. Bij welke stad gebeurde dat?",
+    "correctAnswers": [
+      "Syracuse",
+      "Siracuse"
+    ]
+  },
+  {
+    "id": 84,
+    "content": "Wat is het voltooid deelwoord van toejuichen? Het moet juist gespeld zijn.",
+    "correctAnswers": [
+      "Toegejuicht"
+    ]
+  },
+  {
+    "id": 85,
+    "content": "Welke bes wordt van oudsher gebruikt bij het behandelen en voorkomen van blaasontsteking?",
+    "correctAnswers": [
+      "Cranberry"
+    ]
+  },
+  {
+    "id": 86,
+    "content": "Welke wielrenner won als eerste niet-Europeaan de Tour de France?",
+    "correctAnswers": [
+      "Greg Lemond",
+      "Lemond"
+    ]
+  },
+  {
+    "id": 87,
+    "content": "Wat is het 'gewone' woord voor de in de wiskunde gebruikte term hypotenusa?",
+    "correctAnswers": [
+      "Schuine zijde"
+    ]
+  },
+  {
+    "id": 88,
+    "content": "Het kunstwerk Metropolis uit 1923 is een fotomontage van een grote stad. Van welke in Duitsland geboren Nederlandse kunstenaar is dit werk?",
+    "correctAnswers": [
+      "Paul Citroen",
+      "Citroen"
+    ]
+  },
+  {
+    "id": 89,
+    "content": "Wat is de voornaam van de vrouw die de muze van Salvador Dali was?",
+    "correctAnswers": [
+      "Gala"
+    ]
+  },
+  {
+    "id": 90,
+    "content": "In de vlag van welk land is een cederboom afgebeeld?",
+    "correctAnswers": [
+      "Libanon"
+    ]
+  },
+  {
+    "id": 91,
+    "content": "De wonderbaarlijke spijziging ging met vijf broden. Met hoeveel vissen?",
+    "correctAnswers": [
+      "2",
+      "Twee"
+    ]
+  },
+  {
+    "id": 92,
+    "content": "Hoe noemen we het effect bij tennis waardoor de bal na het neerkomen harder doorschiet?",
+    "correctAnswers": [
+      "Topspin"
+    ]
+  },
+  {
+    "id": 93,
+    "content": "In welk jaar beloofde Neville Chamberlain 'Peace for our time'?",
+    "correctAnswers": [
+      "1938"
+    ]
+  },
+  {
+    "id": 94,
+    "content": "Het in de Middeleeuwen bedachte principe dat een verklaring zo min mogelijk aannames moet hebben heet 'het scheermes van...?'",
+    "correctAnswers": [
+      "Ockham"
+    ]
+  },
+  {
+    "id": 95,
+    "content": "Hoe heet de schrijver van de Madelief-serie die in 2012 de Astrid Lindgren Memorial Award won?",
+    "correctAnswers": [
+      "Guus Kuijer",
+      "Kuijer"
+    ]
+  },
+  {
+    "id": 96,
+    "content": "Gemaaid gras wordt gedroogd tot hooi en goed onder landbouwplastic verpakt. Hoe noemt een boer dat gras?",
+    "correctAnswers": [
+      "Kuilgras"
+    ]
+  },
+  {
+    "id": 97,
+    "content": "Over wie zei trainer Co Adriaanse 'Een goed paard is nog geen goede ruiter'?",
+    "correctAnswers": [
+      "Marco van Basten",
+      "Van Basten"
+    ]
+  },
+  {
+    "id": 98,
+    "content": "Hoeveel is 4 gedeeld door 0.125?",
+    "correctAnswers": [
+      "32"
+    ]
+  },
+  {
+    "id": 99,
+    "content": "Tot welke stroming rekenen we schilders als William Turner, Caspar David Friedrich en John Constable?",
+    "correctAnswers": [
+      "Romantiek"
+    ]
+  },
+  {
+    "id": 100,
+    "content": "Hoe heet het Nederlandse online nieuwsmagazine dat satirische artikelen publiceert?",
+    "correctAnswers": [
+      "De Speld"
+    ]
+  },
+  {
+    "id": 101,
+    "content": "Het is de achtersteven van een schip, de witte haren bij de staart van een hert, en een Duits weekblad. Welk woord zoek ik?",
+    "correctAnswers": [
+      "Spiegel"
+    ]
+  },
+  {
+    "id": 102,
+    "content": "Hoe heet de trainer die Sven Kramer tijdens de Olympische Spelen in Vancouver in 2010 tijdens een wissel de verkeerde baan in stuurde, met diskwalificatie tot gevolg?",
+    "correctAnswers": [
+      "Gerard Kemkers",
+      "Kemkers"
+    ]
+  },
+  {
+    "id": 103,
+    "content": "Van welke schrijfster was filosoof en schrijver Jean-Paul Sartre de levensgezel?",
+    "correctAnswers": [
+      "Simone de Beauvoir",
+      "De Beauvoir"
+    ]
+  },
+  {
+    "id": 104,
+    "content": "Wat is de aanspreektitel van een ongehuwde adellijke dame?",
+    "correctAnswers": [
+      "Freule"
+    ]
+  },
+  {
+    "id": 105,
+    "content": "Welk land veroverde de Spaanse conquistador Hernán Cortès tussen 1519 en 1521?",
+    "correctAnswers": [
+      "Mexico"
+    ]
+  },
+  {
+    "id": 106,
+    "content": "Wie speelt de mannelijke hoofdrol in de film 'Alleen maar nette mensen'? Hij is de zoon van een bekende filmregisseur.",
+    "correctAnswers": [
+      "Géza Weisz",
+      "Geza Weisz",
+      "Weisz"
+    ]
+  },
+  {
+    "id": 107,
+    "content": "7.2 megajoule is gelijk aan hoeveel kilowattuur?",
+    "correctAnswers": [
+      "2",
+      "Twee"
+    ]
+  },
+  {
+    "id": 108,
+    "content": "Een uit het Duits overgenomen woord heet een Germanisme, maar hoe heet een uit het Frans overgenomen woord?",
+    "correctAnswers": [
+      "Gallicisme"
+    ]
+  },
+  {
+    "id": 109,
+    "content": "Hoeveel snaren heeft een viool?",
+    "correctAnswers": [
+      "4",
+      "Vier"
+    ]
+  },
+  {
+    "id": 110,
+    "content": "Hoe heet de allereerste James Bond film?",
+    "correctAnswers": [
+      "Dr. No"
     ]
   }
 ]
