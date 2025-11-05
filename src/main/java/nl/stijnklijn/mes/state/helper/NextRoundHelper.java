@@ -6,6 +6,9 @@ import nl.stijnklijn.mes.enums.PlayerState;
 import nl.stijnklijn.mes.model.Message;
 import nl.stijnklijn.mes.model.Player;
 
+import java.util.Timer;
+import java.util.TimerTask;
+
 import static nl.stijnklijn.mes.constants.Constants.*;
 
 public class NextRoundHelper {
@@ -33,6 +36,15 @@ public class NextRoundHelper {
         ctx.broadcastGame();
         int questionStartIndex = (ctx.getGame().getRound() - 1) * QUESTIONS_PER_ROUND;
         ctx.broadcast(new Message(MessageType.QUESTIONS, ctx.getGame().getQuestions().subList(questionStartIndex, questionStartIndex + QUESTIONS_PER_ROUND)));
+
+        new Timer().schedule(new TimerTask() {
+            @Override
+            public void run() {
+                ctx.getGame().getPlayer1().setState(PlayerState.SUBMIT_ANSWERS);
+                ctx.getGame().getPlayer2().setState(PlayerState.SUBMIT_ANSWERS);
+                ctx.broadcastGame();
+            }
+        }, (COUNT_DOWN + ROUND_TIME) * 1000L);
     }
 
     private void putStake(GameContext ctx, int round) {
