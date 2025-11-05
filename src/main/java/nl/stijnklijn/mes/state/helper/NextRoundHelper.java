@@ -12,13 +12,13 @@ public class NextRoundHelper {
 
     public void nextRound(GameContext ctx) {
         resetRoundState(ctx);
-        ctx.getGame().setRound(ctx.getGame().getRound() + 1);
 
-        if (ctx.getGame().getRound() > MAX_ROUNDS) {
+        if (ctx.getGame().getRound().equals(MAX_ROUNDS)) {
             endGame(ctx);
             return;
         }
 
+        ctx.getGame().setRound(ctx.getGame().getRound() + 1);
         ctx.getGame().getPlayer1().setState(PlayerState.ANSWER_QUESTIONS);
         ctx.getGame().getPlayer2().setState(PlayerState.ANSWER_QUESTIONS);
         ctx.getGame().setRound(ctx.getGame().getRound());

@@ -736,7 +736,7 @@
   },
   {
     "id": 98,
-    "content": "Hoeveel is 4 gedeeld door 0.125?",
+    "content": "Hoeveel is 4 gedeeld door 0,125?",
     "correctAnswers": [
       "32"
     ]

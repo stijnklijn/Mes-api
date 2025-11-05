@@ -6,13 +6,13 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>3.5.6</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath/>
 	</parent>
 	<groupId>nl.stijnklijn</groupId>
 	<artifactId>mes</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Mes</name>
-	<description>Met het mes op tafel</description>
+	<description>Met het Mes op Tafel</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -81,5 +81,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
