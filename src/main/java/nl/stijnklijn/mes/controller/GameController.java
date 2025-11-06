@@ -77,9 +77,9 @@ public class GameController {
         gameService.chat(principal.getName(), chatMessage);
     }
 
-    @MessageMapping("/keep-alive")
+    @MessageMapping("/heartbeat")
     public void keepAlive(Principal principal) {
-        log.info("Ontvangen 'keep-alive'-verzoek van speler {}", principal.getName());
+        log.info("Ontvangen heartbeat van speler {}", principal.getName());
     }
 
 }
