@@ -1,5 +1,6 @@
 package nl.stijnklijn.mes.controller;
 
+import lombok.extern.slf4j.Slf4j;
 import nl.stijnklijn.mes.model.*;
 import nl.stijnklijn.mes.service.GameService;
 import org.springframework.http.HttpHeaders;
@@ -13,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.security.Principal;
 import java.util.List;
 
+@Slf4j
 @RestController
 public class GameController {
 
@@ -73,6 +75,11 @@ public class GameController {
     @MessageMapping("/chat")
     public void chat(ChatMessage chatMessage, Principal principal) {
         gameService.chat(principal.getName(), chatMessage);
+    }
+
+    @MessageMapping("/keep-alive")
+    public void keepAlive(Principal principal) {
+        log.info("Ontvangen 'keep-alive'-verzoek van speler {}", principal.getName());
     }
 
 }
