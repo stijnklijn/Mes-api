@@ -1103,5 +1103,101 @@
     "correctAnswers": [
       "Recto"
     ]
+  },
+  {
+    "id": 147,
+    "content": "Wat is het medische woord voor slapeloosheid?",
+    "correctAnswers": [
+      "Insomnia",
+      "Insomnie"
+    ]
+  },
+  {
+    "id": 148,
+    "content": "Op een stuk weiland van 60x75 meter lopen 25 koeien. Hoeveel vierkante meter ruimte heeft elke koe gemiddeld?",
+    "correctAnswers": [
+      "180"
+    ]
+  },
+  {
+    "id": 149,
+    "content": "In welke stad stond het Paleis voor Volksvlijt, een glazen paleis dat in 1929 door brand werd verwoest?",
+    "correctAnswers": [
+      "Amsterdam"
+    ]
+  },
+  {
+    "id": 150,
+    "content": "Floris de Vijfde werd na een complot van vier edelen vermoord. Dit waren Gerard van Velsen, Herman van Woerden, Willem van Zaanden, en ...?",
+    "correctAnswers": [
+      "Gijsbrecht van Amstel",
+      "Van Amstel"
+    ]
+  },
+  {
+    "id": 151,
+    "content": "Van welke Brits-Amerikaanse popgroep is het album 'Rumours' uit 1977 met de grote hit 'Go your own way'?",
+    "correctAnswers": [
+      "Fleetwood Mac"
+    ]
+  },
+  {
+    "id": 152,
+    "content": "Over wie zei koningin Wilhelmina 'Eenzaam, maar niet alleen'?",
+    "correctAnswers": [
+      "Zichzelf"
+    ]
+  },
+  {
+    "id": 153,
+    "content": "Op welk eiland was de dodo als enige te vinden?",
+    "correctAnswers": [
+      "Mauritius"
+    ]
+  },
+  {
+    "id": 154,
+    "content": "Hoe heet een lange stok waaraan een microfoon bevestigd is?",
+    "correctAnswers": [
+      "Hengel"
+    ]
+  },
+  {
+    "id": 155,
+    "content": "Op welke dag van de week valt vastenavond?",
+    "correctAnswers": [
+      "Dinsdag"
+    ]
+  },
+  {
+    "id": 156,
+    "content": "Hoe heet de jurist die bij koninklijk besluit wordt aangewezen om de staat bij te staan in juridische kwesties?",
+    "correctAnswers": [
+      "Landsadvocaat"
+    ]
+  },
+  {
+    "id": 157,
+    "content": "Welke Britse wiskundige wordt beschouwd als de grondlegger van de computerwetenschap? Hij is bekend van zijn hulp bij het breken van de Enigma code en om de naar hem vernoemde test waarmee een ondervrager moet ontdekken of hij een mens of een machine ondervraagt",
+    "correctAnswers": [
+      "Alan Turing",
+      "Turing"
+    ]
+  },
+  {
+    "id": 158,
+    "content": "Wie schilderde 'Slaapkamer in Arles'?",
+    "correctAnswers": [
+      "Vincent van Gogh",
+      "Van Gogh"
+    ]
+  },
+  {
+    "id": 159,
+    "content": "Langs de oever van welke rivier liggen Meerssen, Wijlre en Valkenburg?",
+    "correctAnswers": [
+      "De Geul",
+      "Geul"
+    ]
   }
 ]

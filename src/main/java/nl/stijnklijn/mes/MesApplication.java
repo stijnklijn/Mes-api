@@ -19,6 +19,7 @@ public class MesApplication {
     2013 voorjaar afl 4.
     2013 voorjaar afl 5.
     2013 voorjaar afl 6.
+    2013 voorjaar afl 7.
      */
 
     public static void main(String[] args) {
