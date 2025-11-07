@@ -18,7 +18,7 @@ public class Constants {
     public static final String ERROR_HEADER = "Error";
     public static final String CREATE_GAME_PATH = "/create-game";
     public static final String CAN_JOIN_PATH = "/can-join";
-    public static final String WEBSOCKET_SUBSCRIBE_BASE_PATH = "/queue";
+    public static final String WEBSOCKET_SUBSCRIBE_BASE_PATH = "/subscribe";
     public static final String WEBSOCKET_PUBLISH_BASE_PATH = "/publish";
     public static final String JOIN_GAME_PATH = "/join-game";
     public static final String SUBMIT_ANSWERS_PATH = "/submit-answers";

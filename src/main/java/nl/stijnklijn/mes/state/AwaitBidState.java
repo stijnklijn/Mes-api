@@ -3,10 +3,7 @@ package nl.stijnklijn.mes.state;
 import nl.stijnklijn.mes.context.GameContext;
 import nl.stijnklijn.mes.enums.MessageType;
 import nl.stijnklijn.mes.event.BidSubmittedEvent;
-import nl.stijnklijn.mes.model.Answer;
-import nl.stijnklijn.mes.model.Bid;
-import nl.stijnklijn.mes.model.Message;
-import nl.stijnklijn.mes.model.Player;
+import nl.stijnklijn.mes.model.*;
 import nl.stijnklijn.mes.state.helper.AssignBidHelper;
 import nl.stijnklijn.mes.state.helper.NextRoundHelper;
 
@@ -23,12 +20,12 @@ public class AwaitBidState implements State<BidSubmittedEvent> {
     @Override
     public State<?> handle(BidSubmittedEvent e, GameContext ctx) {
 
-        Bid bid = (Bid)e.getPayload();
+        Bid bid = (Bid) e.getPayload();
 
         Player self = ctx.getSelf(e.getPlayer().getId());
         Player opponent = ctx.getOpponent(e.getPlayer().getId());
 
-        if (bid.getAmount() == 0) {
+        if (bid.amount() == 0) {
             ctx.broadcast(new Message(MessageType.INFO, String.format("%s heeft gepast. De pot gaat naar %s!",
                     self.getName(), opponent.getName())));
             payoutBank(ctx, opponent);
@@ -40,7 +37,7 @@ public class AwaitBidState implements State<BidSubmittedEvent> {
 
         processBid(ctx, bid, self);
         ctx.broadcast(new Message(MessageType.INFO, String.format("%s heeft %d euro geboden.",
-                self.getName(), bid.getAmount())));
+                self.getName(), bid.amount())));
 
         if (ctx.getGame().bothPlayersBid()) {
             if (ctx.getGame().isFeedbackReturned()) {
@@ -58,9 +55,9 @@ public class AwaitBidState implements State<BidSubmittedEvent> {
     }
 
     private void processBid(GameContext ctx, Bid bid, Player player) {
-        player.setBid(bid.getAmount());
-        player.setScore(player.getScore() - bid.getAmount());
-        ctx.getGame().setBank(ctx.getGame().getBank() + bid.getAmount());
+        player.setBid(bid.amount());
+        player.setScore(player.getScore() - bid.amount());
+        ctx.getGame().setBank(ctx.getGame().getBank() + bid.amount());
     }
 
     private void resolveBids(GameContext ctx) {

@@ -66,7 +66,7 @@ public class GameController {
 
     @MessageMapping(JOIN_GAME_PATH)
     public void joinGame(JoinRequest joinRequest, Principal principal) {
-        gameService.joinGame(new Player(principal.getName(), joinRequest.getName()), joinRequest.getGameId());
+        gameService.joinGame(new Player(principal.getName(), joinRequest.name()), joinRequest.gameId());
     }
 
     @MessageMapping(SUBMIT_ANSWERS_PATH)

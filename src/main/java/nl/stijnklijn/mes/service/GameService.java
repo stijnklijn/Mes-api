@@ -82,7 +82,7 @@ public class GameService {
 
     public void chat(String playerId, ChatMessage chatMessage) {
         GameContext ctx = sessionService.getGameContext(playerId);
-        ctx.broadcast(new Message(MessageType.INFO, String.format("%s zegt: %s", chatMessage.getName(), chatMessage.getContent())));
+        ctx.broadcast(new Message(MessageType.INFO, String.format("%s zegt: %s", chatMessage.name(), chatMessage.content())));
 
     }
 

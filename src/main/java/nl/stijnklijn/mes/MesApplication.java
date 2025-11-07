@@ -6,8 +6,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class MesApplication {
 
-    //TODO: Er is duplicate data tussen BE en FE, zoals countdown time, roundtime en startscore. FE deze info laten ophalen bij BE?
-    //TODO: Records voor immutable objects gebruiken?
     //TODO: Alle input valideren.
     //TODO: CustomExceptions implementeren in plaats van RunTimeExceptions.
     //TODO: Meer vragen implementeren.
