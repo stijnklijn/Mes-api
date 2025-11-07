@@ -8,6 +8,8 @@ import org.springframework.web.socket.server.HandshakeInterceptor;
 
 import java.util.Map;
 
+import static nl.stijnklijn.mes.constants.Constants.PLAYER_ID_QUERY_STRING;
+
 public class CustomHandshakeInterceptor implements HandshakeInterceptor {
 
     @Override
@@ -19,7 +21,7 @@ public class CustomHandshakeInterceptor implements HandshakeInterceptor {
         String playerId = null;
         if (request.getURI().getQuery() != null) {
             for (String param : request.getURI().getQuery().split("&")) {
-                if (param.startsWith("playerId=")) {
+                if (param.startsWith(PLAYER_ID_QUERY_STRING + "=")) {
                     playerId = param.split("=")[1];
                     break;
                 }
@@ -31,7 +33,7 @@ public class CustomHandshakeInterceptor implements HandshakeInterceptor {
             return false;
         }
 
-        attributes.put("playerId", playerId);
+        attributes.put(PLAYER_ID_QUERY_STRING, playerId);
 
         return true;
     }

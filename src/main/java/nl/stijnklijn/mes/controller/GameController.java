@@ -14,6 +14,8 @@ import org.springframework.web.bind.annotation.RestController;
 import java.security.Principal;
 import java.util.List;
 
+import static nl.stijnklijn.mes.constants.Constants.*;
+
 @Slf4j
 @RestController
 public class GameController {
@@ -24,15 +26,20 @@ public class GameController {
         this.gameService = gameService;
     }
 
-    @GetMapping("/rest/create-game")
+    @GetMapping("/rest/shared-constants")
+    public ResponseEntity<SharedConstants> getSharedConstants() {
+        return new ResponseEntity<>(new SharedConstants(), HttpStatus.OK);
+    }
+
+    @GetMapping("/rest" + CREATE_GAME_PATH)
     public ResponseEntity<String> createGame() {
         HttpHeaders headers = new HttpHeaders();
         String gameId = gameService.createGame();
-        headers.add("Game-Id", gameId);
+        headers.add(GAME_ID_HEADER, gameId);
         return new ResponseEntity<>(headers, HttpStatus.CREATED);
     }
 
-    @GetMapping("/rest/can-join/{gameId}/{playerName}")
+    @GetMapping("/rest" + CAN_JOIN_PATH + "/{gameId}/{playerName}")
     public ResponseEntity<String> canJoin(@PathVariable String gameId, @PathVariable String playerName) {
         String errorMessage = null;
 
@@ -50,34 +57,34 @@ public class GameController {
 
         if (errorMessage != null) {
             HttpHeaders headers = new HttpHeaders();
-            headers.add("Error", errorMessage);
+            headers.add(ERROR_HEADER, errorMessage);
             return new ResponseEntity<>(headers, HttpStatus.FORBIDDEN);
         }
 
         return new ResponseEntity<>(HttpStatus.OK);
     }
 
-    @MessageMapping("/join-game")
+    @MessageMapping(JOIN_GAME_PATH)
     public void joinGame(JoinRequest joinRequest, Principal principal) {
         gameService.joinGame(new Player(principal.getName(), joinRequest.getName()), joinRequest.getGameId());
     }
 
-    @MessageMapping("/submit-answers")
+    @MessageMapping(SUBMIT_ANSWERS_PATH)
     public void submitAnswers(List<Answer> answers, Principal principal) {
         gameService.submitAnswers(principal.getName(), answers);
     }
 
-    @MessageMapping("/submit-bid")
+    @MessageMapping(SUBMIT_BID_PATH)
     public void submitBid(Bid bid, Principal principal) {
         gameService.submitBid(principal.getName(), bid);
     }
 
-    @MessageMapping("/chat")
+    @MessageMapping(CHAT_PATH)
     public void chat(ChatMessage chatMessage, Principal principal) {
         gameService.chat(principal.getName(), chatMessage);
     }
 
-    @MessageMapping("/heartbeat")
+    @MessageMapping(HEARTBEAT_PATH)
     public void keepAlive(Principal principal) {
         log.info("Ontvangen heartbeat van speler {}", principal.getName());
     }

@@ -15,6 +15,9 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.UUID;
 
+import static nl.stijnklijn.mes.constants.Constants.GAME_ID_END_INDEX;
+import static nl.stijnklijn.mes.constants.Constants.GAME_ID_START_INDEX;
+
 @Service
 public class GameService {
 
@@ -42,7 +45,7 @@ public class GameService {
     public String createGame() {
         String gameId;
         do {
-            gameId = UUID.randomUUID().toString().substring(9, 13).toUpperCase();
+            gameId = UUID.randomUUID().toString().substring(GAME_ID_START_INDEX, GAME_ID_END_INDEX).toUpperCase();
         } while (gameExists(gameId));
         GameContext ctx = new GameContext(gameId, messageService, questionService, gameMapper,
                 awaitOpponentState, awaitAnswersState, awaitBidState);
