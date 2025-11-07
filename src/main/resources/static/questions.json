@@ -1,35 +1,45 @@
 [
   {
+    "id": 0,
+    "content": "Langs de oever van welke rivier liggen Meerssen, Wijlre en Valkenburg?",
+    "correctAnswers": [
+      "De Geul"
+    ],
+    "strict": false
+  },
+  {
     "id": 1,
     "content": "Hoe noemen we het zich bochtig door het landschap slingeren van een rivier?",
     "correctAnswers": [
       "Meanderen"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 2,
     "content": "Wat is de Franse term voor het door Napoleon ingestelde Burgerlijk Wetboek, dat elke Nederlander verplichtte een familienaam aan te nemen?",
     "correctAnswers": [
       "Code Civil",
-      "Code Napoleon",
       "Code Napoléon"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 3,
     "content": "Hoe heet de prijs die elk jaar wordt uitgereikt voor het beste theaterlied?",
     "correctAnswers": [
       "Annie M.G. Schmidtprijs"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 4,
-    "content": "Jan fietst eerst een uur met een gemiddelde snelheid van 24 km/u en daarna twee uur met een gemiddelde snelheid van 18 km/u. Wat is de gemiddelde snelheid tijdens de hele rit?",
+    "content": "Jan fietst eerst een uur met een gemiddelde snelheid van 24 km/u en daarna twee uur met een gemiddelde snelheid van 18 km/u. Wat is de gemiddelde snelheid tijdens de hele rit? Voer alleen het getal in (niet de eenheid)",
     "correctAnswers": [
       "20",
-      "20 km/u",
       "Twintig"
-    ]
+    ],
+    "strict": true
   },
   {
     "id": 5,
@@ -37,14 +47,16 @@
     "correctAnswers": [
       "W.H. Auden",
       "Auden"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 6,
     "content": "Welk woord hoort er op de puntjes? 'Steen, papier, ...'",
     "correctAnswers": [
       "Schaar"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 7,
@@ -52,7 +64,8 @@
     "correctAnswers": [
       "4",
       "Vier"
-    ]
+    ],
+    "strict": true
   },
   {
     "id": 8,
@@ -60,7 +73,8 @@
     "correctAnswers": [
       "Jan Steen",
       "Steen"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 9,
@@ -68,49 +82,57 @@
     "correctAnswers": [
       "Charles Bronson",
       "Bronson"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 10,
     "content": "Wat zijn of waren Säkerhets Tändstickor?",
     "correctAnswers": [
-      "Lucifers"
-    ]
+      "Lucifers",
+      "Lucifer"
+    ],
+    "strict": false
   },
   {
     "id": 11,
     "content": "Een bekende uitdrukking luidt: '... is 's werelds loon'. Wat komt er op de puntjes?",
     "correctAnswers": [
       "Ondank"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 12,
     "content": "Halverwege 2012 lukte het voor de eerste keer om een vliegtuigje op zonne-energie te laten vliegen van Europa naar Afrika. Hoe heette dat vliegtuigje?",
     "correctAnswers": [
       "Solar Impulse"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 13,
     "content": "In welke stad ligt de grootste haven van Frankrijk?",
     "correctAnswers": [
       "Marseille"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 14,
     "content": "De bekendste dichtbundel van de 19e-eeuwse dichter Piet Paaltjens heet 'Snikken en ...'?",
     "correctAnswers": [
       "Grimlachjes"
-    ]
+    ],
+    "strict": true
   },
   {
     "id": 15,
     "content": "Hoe luidt de bijnaam van de herbergier in het Griekse Attica die de kleine reizigers op het bed uitrekte en van grotere juist de uitstekende delen afhakte?",
     "correctAnswers": [
       "Procrustes"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 16,
@@ -118,7 +140,8 @@
     "correctAnswers": [
       "Billie Holiday",
       "Holiday"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 17,
@@ -126,52 +149,58 @@
     "correctAnswers": [
       "Willem Drees",
       "Drees"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 18,
     "content": "Hoe heet de officiële residentie van de Britse koning in Londen?",
     "correctAnswers": [
       "Buckingham Palace"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 19,
     "content": "Hoe heette de boyband met Robbie Williams en Gary Barlow?",
     "correctAnswers": [
       "Take That"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 20,
     "content": "Welk vlees zit er in saté babi?",
     "correctAnswers": [
       "Varkensvlees",
+      "Varkens",
       "Varken"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 21,
     "content": "In welke Amerikaanse staat vinden we Joshua Tree National Park en Yosemite National Park?",
     "correctAnswers": [
-      "Californie",
-      "Californië",
-      "California"
-    ]
+      "Californië"
+    ],
+    "strict": false
   },
   {
     "id": 22,
     "content": "Kernenergie werd tot nu toe vooral gewonnen uit uranium en plutonium. Welk ander scheikundig element kan ook worden gebruikt om nucleaire energie te winnen? Het is vernoemd naar de Noorse god van de donder.",
     "correctAnswers": [
       "Thorium"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 23,
     "content": "Welk land werd in 1950 door China bezet?",
     "correctAnswers": [
       "Tibet"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 24,
@@ -179,28 +208,32 @@
     "correctAnswers": [
       "Sophocles",
       "Sophokles"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 25,
     "content": "Op welke plek van het lichaam wordt bij pasgeboren baby's bloed afgenomen om te controleren op zeldzame ziektes?",
     "correctAnswers": [
       "Hiel"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 26,
     "content": "Wie wordt in het sprookje van Grimm door een heks vetgemest in het peperkoekhuisje?",
     "correctAnswers": [
       "Hans"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 27,
     "content": "Hoe heet de grensovergang tussen België en Nederland bij Breda?",
     "correctAnswers": [
       "Hazeldonk"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 28,
@@ -208,14 +241,16 @@
     "correctAnswers": [
       "Gustave Flaubert",
       "Flaubert"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 29,
     "content": "Van welke Engelse band is het nummer 'Why did you do it'?",
     "correctAnswers": [
       "Stretch"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 30,
@@ -223,7 +258,8 @@
     "correctAnswers": [
       "Joop den Uyl",
       "Den Uyl"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 31,
@@ -231,67 +267,76 @@
     "correctAnswers": [
       "Boxermotor",
       "Boxer"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 32,
     "content": "Waarvoor staat de C in de namen van de voetbalclubs NAC en NEC?",
     "correctAnswers": [
       "Combinatie"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 33,
     "content": "De schrijvers Heijermans, Koch en De Koning delen dezelfde voornaam. Welke?",
     "correctAnswers": [
       "Herman"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 34,
     "content": "Welke naam nam Saulus van Tarsus aan na zijn bekering op weg naar Damascus?",
     "correctAnswers": [
       "Paulus"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 35,
     "content": "Bij welke Duitse club keerde Rafaël van der Vaart in augustus 2012 terug na een aantal jaren Real Madrid en Tottenham Hotspur?",
     "correctAnswers": [
-      "Hamburger Sport-Verein",
-      "Hamburger Sport Verein",
       "Hamburger SV",
+      "Hamburger Sport-Verein",
+      "Hamburg SV",
+      "Hamburg Sport-Verein",
       "HSV"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 36,
     "content": "In welke streek (niet provincie) ligt Helenaveen?",
     "correctAnswers": [
       "De Peel"
-    ]
+    ],
+    "strict": true
   },
   {
     "id": 37,
     "content": "Hoe worden het Internationaal Monetair Fonds, de Europese Centrale Bank en de Europese Unie samen genoemd? Het is een Russische term.",
     "correctAnswers": [
       "Trojka"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 38,
     "content": "Hoe wordt de ondergrondse begraafplaats van de eerste Christenen in Rome genoemd? Het woord is synoniem geworden voor ondergrondse begraafplaatsen",
     "correctAnswers": [
-      "Catacomben",
-      "De catacomben"
-    ]
+      "Catacomben"
+    ],
+    "strict": false
   },
   {
     "id": 39,
     "content": "Hoe heet de eerste Rambo-film van Viëtnamveteraan Sylvester Stallone uit 1982?",
     "correctAnswers": [
       "First Blood"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 40,
@@ -299,79 +344,88 @@
     "correctAnswers": [
       "Alex van Warmerdam",
       "Van Warmerdam"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 41,
     "content": "Welke titel voeren mannelijke erfgenamen van de Engelse troon sinds 1301?",
     "correctAnswers": [
       "Prince of Wales"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 42,
     "content": "Hoe heet het Amerikaanse zakenblad dat jaarlijks een lijst van de 500 rijkste mensen publiceert?",
     "correctAnswers": [
       "Forbes"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 43,
     "content": "Hoe heet de kunststof die begin vorige eeuw werd gebruikt voor deurklinken, radiokasten en telefoons? Het is genoemd naar de uitvinder.",
     "correctAnswers": [
       "Bakeliet"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 44,
     "content": "Wie werd er geroepen uit het brandende braambos?",
     "correctAnswers": [
       "Mozes"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 45,
     "content": "Hoeveel is twee tot de zesde macht?",
     "correctAnswers": [
-      "64",
-      "Vierenzestig"
-    ]
+      "64"
+    ],
+    "strict": true
   },
   {
     "id": 46,
     "content": "Welk woord komt er op de puntjes in het lied van West Ham United? 'I'm forever blowing bubbles, pretty bubbles in the...'",
     "correctAnswers": [
       "Air"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 47,
     "content": "Hij is de zoon van acteur Gijs Scholten van Aschat en won in 2012 het Gouden Kalf voor beste acteur voor zijn rol als jonge Holleeder in 'De Heineken ontvoering'. Wat is zijn voornaam?",
     "correctAnswers": [
       "Reinout"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 48,
     "content": "Hoe heet in de Romeinse mythologie de koningin van de goden? Bij de Grieken heet ze Hera.",
     "correctAnswers": [
       "Juno"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 49,
     "content": "In de elfde en twaalfde eeuw was er een conflict tussen de Duitse keizer Hendrik de vierde en Paus Gregorius de zevende. Uiteindelijk moest de keizer boete doen door drie dagen lang in de sneeuw te lopen voor een kasteel van de paus. In welke Italiaanse plaats ligt dat kasteel?",
     "correctAnswers": [
       "Canossa"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 50,
     "content": "Wie komt er volgens de zegswijze voorbij als het gesprek in een gezelschap ineens stilvalt?",
     "correctAnswers": [
-      "Dominee",
       "De dominee"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 51,
@@ -379,42 +433,48 @@
     "correctAnswers": [
       "Carice van Houten",
       "Van Houten"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 52,
     "content": "Hoe noemen we een kunststof hulsje dat door verwarming slinkt en zo een isolerende afsluiting vormt voor bedrading?",
     "correctAnswers": [
       "Krimpkous"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 53,
     "content": "Het is een Zuid-Afrikaanse druif, een Nederlandse kunstschilder en een bouwmateriaal. Welk woord zoek ik?",
     "correctAnswers": [
       "Steen"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 54,
     "content": "In welke Nederlandse stad staat het Nationaal Glasmuseum?",
     "correctAnswers": [
       "Leerdam"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 55,
     "content": "Over wie zei de schaker Bobby Fisher: 'Met zwart zou ik geen schijn van kans tegen hem maken, maar met wit speel ik gewoon Spaans. Dat is zo'n uitgebalanceerde opening, dan maakt ie me niks'?",
     "correctAnswers": [
       "God"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 56,
     "content": "Wat is in de scheikunde de eenheid voor een standaardhoeveelheid deeltjes in een stof?",
     "correctAnswers": [
       "Mol"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 57,
@@ -422,7 +482,8 @@
     "correctAnswers": [
       "Judy Dench",
       "Dench"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 58,
@@ -430,30 +491,33 @@
     "correctAnswers": [
       "Ferdinand de Lesseps",
       "De Lesseps"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 59,
     "content": "Een auto heeft een tank van 60 liter die voor 75% gevuld is. De auto rijdt 15 kilometer op een liter brandstof. Hoeveel kilometer kan de auto nog rijden?",
     "correctAnswers": [
       "675"
-    ]
+    ],
+    "strict": true
   },
   {
     "id": 60,
     "content": "Hoe heet de instantie in Tiel waar alle schulden van Nederlanders worden bijgehouden?",
     "correctAnswers": [
-      "Bureau Kredietregistratie",
-      "Bureau Krediet Registratie",
-      "BKR"
-    ]
+      "BKR",
+      "Bureau Krediet Registratie"
+    ],
+    "strict": false
   },
   {
     "id": 61,
     "content": "Hoe noemt men het zachtjes ronddraaien van een wijnglas om zo de geuren los te laten komen?",
     "correctAnswers": [
       "Walsen"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 62,
@@ -461,7 +525,8 @@
     "correctAnswers": [
       "Hervorming",
       "Herstructurering"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 63,
@@ -469,45 +534,49 @@
     "correctAnswers": [
       "Den Haag",
       "'s Gravenhage"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 64,
     "content": "Welke Italiaanse dichter en schrijver had als achternaam Alighieri? We kennen hem meestal bij zijn voornaam.",
     "correctAnswers": [
       "Dante"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 65,
     "content": "Hoeveel blokjes van 3x3x3 passen er in een doos van 6x6x6?",
     "correctAnswers": [
       "8", "Acht"
-    ]
+    ],
+    "strict": true
   },
   {
     "id": 66,
     "content": "Biesheuvel, Aantjes en Roolvink waren lid van de partij die door Abraham Kuyper is opgericht. Hoe heet die partij?",
     "correctAnswers": [
       "Anti-Revolutionaire Partij",
-      "Anti Revolutionaire Partij",
-      "Antirevolutionaire Partij",
       "ARP"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 67,
     "content": "Hoe heet de spoorlijn tussen Zwolle en Lelystad?",
     "correctAnswers": [
       "Hanzelijn"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 68,
     "content": "Hoe noemen we een troep herten, wolven of honden?",
     "correctAnswers": [
       "Roedel"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 69,
@@ -515,21 +584,25 @@
     "correctAnswers": [
       "Harry Belafonte",
       "Belafonte"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 70,
     "content": "Het hart bestaat uit twee kamers en twee ...?",
     "correctAnswers": [
-      "Boezems"
-    ]
+      "Boezems",
+      "Boezem"
+    ],
+    "strict": false
   },
   {
     "id": 71,
     "content": "In welk land kun je de kalksteenterrassen van Pamukkale bewonderen, die samen met de aangrenzende ruïnestad Hierapolis op de werelderfgoedlijst staan?",
     "correctAnswers": [
       "Turkije"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 72,
@@ -537,7 +610,8 @@
     "correctAnswers": [
       "Verzinken",
       "Verzonken"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 73,
@@ -545,22 +619,24 @@
     "correctAnswers": [
       "BZN",
       "Band Zonder Naam"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 74,
     "content": "Welke Griekse god van de zee was de plaaggeest van Odysseus?",
     "correctAnswers": [
       "Poseidon"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 75,
     "content": "Uit welk programma kennen we de bekende zin 'Dit is mijn uitspraak en hier zult u het mee moeten doen'?",
     "correctAnswers": [
-      "De Rijdende Rechter",
-      "Rijdende Rechter"
-    ]
+      "De Rijdende Rechter"
+    ],
+    "strict": false
   },
   {
     "id": 76,
@@ -568,23 +644,20 @@
     "correctAnswers": [
       "Málaga CF",
       "Málaga Club de Fútbol",
-      "Málaga",
-      "Malaga CF",
-      "Malaga Club de Fútbol",
-      "Malaga",
-      "Málaga Club de Futbol",
-      "Malaga Club de Futbol"
-    ]
+      "Málaga"
+    ],
+    "strict": false
   },
   {
     "id": 77,
-    "content": "Over welke FBI-baas zei Lyndon B. Johnson 'Het is beter om hem in de tent te hebben terwijl hij naar buiten plast in plaats van van buiten de tent naar binnen?'",
+    "content": "Over welke FBI-baas zei Lyndon B. Johnson 'Het is beter om hem in de tent te hebben terwijl hij naar buiten plast in plaats van van buiten de tent naar binnen'?",
     "correctAnswers": [
       "John Edgar Hoover",
       "J. Edgar Hoover",
       "Edgar Hoover",
       "Hoover"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 78,
@@ -592,36 +665,40 @@
     "correctAnswers": [
       "5",
       "Vijf"
-    ]
+    ],
+    "strict": true
   },
   {
     "id": 79,
     "content": "Het is de kleur geel in het Spaans, het is een plaats in Texas, en een lied van Neil Sedaka. Welk woord zoek ik?",
     "correctAnswers": [
       "Amarillo"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 80,
     "content": "Welke Engelse zangeres zingt de titelsong van Skyfall, de 23e James Bond film?",
     "correctAnswers": [
       "Adele"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 81,
     "content": "Van welk land zijn Moravië en Bohemen historische regio's?",
     "correctAnswers": [
-      "Tsjechië",
-      "Tsjechie"
-    ]
+      "Tsjechië"
+    ],
+    "strict": false
   },
   {
     "id": 82,
     "content": "Denk aan het liedje 'Schuitje Varen, Theetje Drinken'. Wat mag het kindje niet?",
     "correctAnswers": [
       "Jokken"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 83,
@@ -629,21 +706,24 @@
     "correctAnswers": [
       "Syracuse",
       "Siracuse"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 84,
     "content": "Wat is het voltooid deelwoord van toejuichen? Het moet juist gespeld zijn.",
     "correctAnswers": [
       "Toegejuicht"
-    ]
+    ],
+    "strict": true
   },
   {
     "id": 85,
     "content": "Welke bes wordt van oudsher gebruikt bij het behandelen en voorkomen van blaasontsteking?",
     "correctAnswers": [
       "Cranberry"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 86,
@@ -651,14 +731,16 @@
     "correctAnswers": [
       "Greg Lemond",
       "Lemond"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 87,
     "content": "Wat is het 'gewone' woord voor de in de wiskunde gebruikte term hypotenusa?",
     "correctAnswers": [
       "Schuine zijde"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 88,
@@ -666,21 +748,24 @@
     "correctAnswers": [
       "Paul Citroen",
       "Citroen"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 89,
     "content": "Wat is de voornaam van de vrouw die de muze van Salvador Dali was?",
     "correctAnswers": [
       "Gala"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 90,
     "content": "In de vlag van welk land is een cederboom afgebeeld?",
     "correctAnswers": [
       "Libanon"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 91,
@@ -688,28 +773,32 @@
     "correctAnswers": [
       "2",
       "Twee"
-    ]
+    ],
+    "strict": true
   },
   {
     "id": 92,
     "content": "Hoe noemen we het effect bij tennis waardoor de bal na het neerkomen harder doorschiet?",
     "correctAnswers": [
       "Topspin"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 93,
     "content": "In welk jaar beloofde Neville Chamberlain 'Peace for our time'?",
     "correctAnswers": [
       "1938"
-    ]
+    ],
+    "strict": true
   },
   {
     "id": 94,
     "content": "Het in de Middeleeuwen bedachte principe dat een verklaring zo min mogelijk aannames moet hebben heet 'het scheermes van...?'",
     "correctAnswers": [
       "Ockham"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 95,
@@ -717,14 +806,16 @@
     "correctAnswers": [
       "Guus Kuijer",
       "Kuijer"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 96,
     "content": "Gemaaid gras wordt gedroogd tot hooi en goed onder landbouwplastic verpakt. Hoe noemt een boer dat gras?",
     "correctAnswers": [
       "Kuilgras"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 97,
@@ -732,35 +823,40 @@
     "correctAnswers": [
       "Marco van Basten",
       "Van Basten"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 98,
     "content": "Hoeveel is 4 gedeeld door 0,125?",
     "correctAnswers": [
       "32"
-    ]
+    ],
+    "strict": true
   },
   {
     "id": 99,
     "content": "Tot welke stroming rekenen we schilders als William Turner, Caspar David Friedrich en John Constable?",
     "correctAnswers": [
       "Romantiek"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 100,
     "content": "Hoe heet het Nederlandse online nieuwsmagazine dat satirische artikelen publiceert?",
     "correctAnswers": [
       "De Speld"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 101,
     "content": "Het is de achtersteven van een schip, de witte haren bij de staart van een hert, en een Duits weekblad. Welk woord zoek ik?",
     "correctAnswers": [
       "Spiegel"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 102,
@@ -768,7 +864,8 @@
     "correctAnswers": [
       "Gerard Kemkers",
       "Kemkers"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 103,
@@ -776,30 +873,33 @@
     "correctAnswers": [
       "Simone de Beauvoir",
       "De Beauvoir"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 104,
     "content": "Wat is de aanspreektitel van een ongehuwde adellijke dame?",
     "correctAnswers": [
       "Freule"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 105,
     "content": "Welk land veroverde de Spaanse conquistador Hernán Cortès tussen 1519 en 1521?",
     "correctAnswers": [
       "Mexico"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 106,
     "content": "Wie speelt de mannelijke hoofdrol in de film 'Alleen maar nette mensen'? Hij is de zoon van een bekende filmregisseur.",
     "correctAnswers": [
       "Géza Weisz",
-      "Geza Weisz",
       "Weisz"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 107,
@@ -807,14 +907,16 @@
     "correctAnswers": [
       "2",
       "Twee"
-    ]
+    ],
+    "strict": true
   },
   {
     "id": 108,
     "content": "Een uit het Duits overgenomen woord heet een Germanisme, maar hoe heet een uit het Frans overgenomen woord?",
     "correctAnswers": [
       "Gallicisme"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 109,
@@ -822,21 +924,24 @@
     "correctAnswers": [
       "4",
       "Vier"
-    ]
+    ],
+    "strict": true
   },
   {
     "id": 110,
     "content": "Hoe heet de allereerste James Bond film?",
     "correctAnswers": [
       "Dr. No"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 111,
     "content": "Welke provincie werd met name onveilig gemaakt door de bokkenrijders, een roversbende uit de 18e eeuw?",
     "correctAnswers": [
       "Limburg"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 112,
@@ -846,14 +951,16 @@
       "Mesheft",
       "Zwaardschede",
       "Schede"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 113,
     "content": "Waarvoor staat de B in de afkorting USB (van USB-stick) ?",
     "correctAnswers": [
       "Bus"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 114,
@@ -862,7 +969,8 @@
       "Miguel de Cervantes",
       "De Cervantes",
       "Cervantes"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 115,
@@ -870,43 +978,48 @@
     "correctAnswers": [
       "Bernardus",
       "Bernard"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 116,
     "content": "Hoe noemen we het als een schip tussen twee gesloten sluisdeuren in water van hoger of lager peil gebracht wordt?",
     "correctAnswers": [
       "Schutten"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 117,
     "content": "Malta ligt in de Middellandse zee. Wat is het dichtstbij gelegen Europese land?",
     "correctAnswers": [
-      "Italië",
-      "Italie"
-    ]
+      "Italië"
+    ],
+    "strict": false
   },
   {
     "id": 118,
     "content": "Het is een militaire verdedigingsplaats, een deel van een golfbaan, en een rechtbank in Amsterdam. Welk woord zoek ik?",
     "correctAnswers": [
       "Bunker"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 119,
     "content": "Onder welke groep vetten of vetachtige stoffen vallen cholesterol en triglyceriden?",
     "correctAnswers": [
       "Lipiden"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 120,
     "content": "Hoe noteer je in de wiskunde 5 faculteit?",
     "correctAnswers": [
       "5!"
-    ]
+    ],
+    "strict": true
   },
   {
     "id": 121,
@@ -914,43 +1027,48 @@
     "correctAnswers": [
       "Felix Baumgartner",
       "Baumgartner"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 122,
     "content": "In welke provincie ligt Rhenen?",
     "correctAnswers": [
       "Utrecht"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 123,
     "content": "Wat is de Franse term voor een levend schilderij?",
     "correctAnswers": [
       "Tableau vivant"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 124,
     "content": "Bij welk programma begon Yvon Jaspers haar televisiecarrière?",
     "correctAnswers": [
-      "Het Klokhuis",
-      "Klokhuis"
-    ]
+      "Het Klokhuis"
+    ],
+    "strict": false
   },
   {
     "id": 125,
     "content": "Hoe noemen we de vermenging van twee begrippen zoals 'voorbijpasseren', 'optelefoneren' of 'dat kost duur'?",
     "correctAnswers": [
       "Contaminatie"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 126,
     "content": "In de Middeleeuwen vielen veel boeren onder het gezag van een heer. Velen waren lijfeigenen. Hoe heetten de boeren die een stukje land konden pachten van hun heer?",
     "correctAnswers": [
       "Horigen"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 127,
@@ -958,37 +1076,40 @@
     "correctAnswers": [
       "Russell Crowe",
       "Crowe"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 128,
     "content": "Naar welk voorwerp ging Jason op zoek, gesteund door de Argonauten?",
     "correctAnswers": [
-      "Het Gulden Vlies",
-      "Gulden Vlies"
-    ]
+      "Het Gulden Vlies"
+    ],
+    "strict": false
   },
   {
     "id": 129,
     "content": "Is een inktvis een omnivoor, carnivoor of herbivoor?",
     "correctAnswers": [
       "Carnivoor"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 130,
     "content": "Een 13e-eeuws gedicht verhaalt over de Vier Heemskinderen en een onoverwinnelijk paard. Hoe heet dat paard?",
     "correctAnswers": [
-      "Het Ros Beiaard",
-      "Ros Beiaard"
-    ]
+      "Het Ros Beiaard"
+    ],
+    "strict": false
   },
   {
     "id": 131,
     "content": "Hoe heet een doorgestikte lapjesdeken?",
     "correctAnswers": [
       "Quilt"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 132,
@@ -996,37 +1117,41 @@
     "correctAnswers": [
       "Ludwig van Beethoven",
       "Beethoven"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 133,
     "content": "'... is de moeder van de porseleinkast'. Welk woord hoort er op de puntjes?",
     "correctAnswers": [
       "Voorzichtigheid"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 134,
     "content": "In welk land verbleef koningin Beatrix het grootste deel van de Tweede Wereldoorlog?",
     "correctAnswers": [
       "Canada"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 135,
     "content": "Tegen welke presentatrice van Nieuwsuur zei Jan-Peter Balkende tijdens een verkiezingsdebat in 2010 'U kijkt zo lief'?",
     "correctAnswers": [
       "Mariëlle Tweebeke",
-      "Marielle Tweebeke",
       "Tweebeke"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 136,
     "content": "Het is een brandpunt, concentratie, en de naam van een band uit de jaren 1970. Welk woord bedoel ik?",
     "correctAnswers": [
       "Focus"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 137,
@@ -1034,31 +1159,33 @@
     "correctAnswers": [
       "Twaalfvingerige darm",
       "Duodenum"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 138,
     "content": "Hoe heet de effectenbeurs van Frankfurt? Vul de afkorting in.",
     "correctAnswers": [
       "DAX"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 139,
     "content": "Hoe heten Italiaanse kussentjes van pasta, gevuld met kaas, vlees of vis?",
     "correctAnswers": [
       "Ravioli"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 140,
     "content": "Hoe heette het volk dat in de Oudheid het huidige Libanon bewoonde en het fonetisch schrift uitvond? Het vormde de basis voor ons alfabet",
     "correctAnswers": [
       "Feniciërs",
-      "Feniciers",
-      "Phoeniciërs",
-      "Phoeniciers"
-    ]
+      "Phoeniciërs"
+    ],
+    "strict": false
   },
   {
     "id": 141,
@@ -1066,43 +1193,48 @@
     "correctAnswers": [
       "Kim van Kooten",
       "Van Kooten"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 142,
     "content": "Een van de beroemdste bokspartijen was die tussen Muhammad Ali en Joe Frazier. In welke hoofdstad werd die wedstrijd gehouden? Het was niet 'The Rumble in the Jungle'.",
     "correctAnswers": [
       "Manila"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 143,
     "content": "In welk Europees land vinden we de Plitvicemeren, een Nationaal Park van meren, grotten en watervallen van bijna 300 vierkante kilometer?",
     "correctAnswers": [
-      "Kroatië",
-      "Kroatie"
-    ]
+      "Kroatië"
+    ],
+    "strict": false
   },
   {
     "id": 144,
     "content": "Dirk, Evert en Frans hebben samen 108 CD's. Ze verdelen die in een verhouding van respectievelijk 2, 3 en 4. Hoeveel CD's krijgt Dirk?",
     "correctAnswers": [
       "24"
-    ]
+    ],
+    "strict": true
   },
   {
     "id": 145,
     "content": "Wat is het Romeinse cijfer voor het getal 500?",
     "correctAnswers": [
       "D"
-    ]
+    ],
+    "strict": true
   },
   {
     "id": 146,
     "content": "De linkerbladzijde van een manuscript heet verso. Hoe heet de rechterbladzijde?",
     "correctAnswers": [
       "Recto"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 147,
@@ -1110,21 +1242,24 @@
     "correctAnswers": [
       "Insomnia",
       "Insomnie"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 148,
     "content": "Op een stuk weiland van 60x75 meter lopen 25 koeien. Hoeveel vierkante meter ruimte heeft elke koe gemiddeld?",
     "correctAnswers": [
       "180"
-    ]
+    ],
+    "strict": true
   },
   {
     "id": 149,
     "content": "In welke stad stond het Paleis voor Volksvlijt, een glazen paleis dat in 1929 door brand werd verwoest?",
     "correctAnswers": [
       "Amsterdam"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 150,
@@ -1132,57 +1267,66 @@
     "correctAnswers": [
       "Gijsbrecht van Amstel",
       "Van Amstel"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 151,
     "content": "Van welke Brits-Amerikaanse popgroep is het album 'Rumours' uit 1977 met de grote hit 'Go your own way'?",
     "correctAnswers": [
       "Fleetwood Mac"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 152,
     "content": "Over wie zei koningin Wilhelmina 'Eenzaam, maar niet alleen'?",
     "correctAnswers": [
-      "Zichzelf"
-    ]
+      "Zichzelf",
+      "Zelf"
+    ],
+    "strict": false
   },
   {
     "id": 153,
     "content": "Op welk eiland was de dodo als enige te vinden?",
     "correctAnswers": [
       "Mauritius"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 154,
     "content": "Hoe heet een lange stok waaraan een microfoon bevestigd is?",
     "correctAnswers": [
       "Hengel"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 155,
     "content": "Op welke dag van de week valt vastenavond?",
     "correctAnswers": [
       "Dinsdag"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 156,
     "content": "Hoe heet de jurist die bij koninklijk besluit wordt aangewezen om de staat bij te staan in juridische kwesties?",
     "correctAnswers": [
       "Landsadvocaat"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 157,
-    "content": "Welke Britse wiskundige wordt beschouwd als de grondlegger van de computerwetenschap? Hij is bekend van zijn hulp bij het breken van de Enigma code en om de naar hem vernoemde test waarmee een ondervrager moet ontdekken of hij een mens of een machine ondervraagt",
+    "content": "Welke Britse wiskundige wordt beschouwd als de grondlegger van de computerwetenschap? Hij is bekend van zijn hulp bij het breken van de Enigma code en om de naar hem vernoemde test waarmee een ondervrager moet ontdekken of hij een mens of een machine ondervraagt.",
     "correctAnswers": [
       "Alan Turing",
       "Turing"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 158,
@@ -1190,14 +1334,174 @@
     "correctAnswers": [
       "Vincent van Gogh",
       "Van Gogh"
-    ]
+    ],
+    "strict": false
   },
   {
     "id": 159,
-    "content": "Langs de oever van welke rivier liggen Meerssen, Wijlre en Valkenburg?",
+    "content": "Hoe heet een vierkante boerderij met een piramidevormig dak?",
     "correctAnswers": [
-      "De Geul",
-      "Geul"
-    ]
+      "Stolpboerderij"
+    ],
+    "strict": false
+  },
+  {
+    "id": 160,
+    "content": "Welk Polynesisch eiland werd in 1722 ontdekt door de Nederlandse ontdekkingsreiziger Jacob Roggeveen?",
+    "correctAnswers": [
+      "Paaseiland"
+    ],
+    "strict": false
+  },
+  {
+    "id": 161,
+    "content": "In welke provincie ligt Paterswolde?",
+    "correctAnswers": [
+      "Drenthe"
+    ],
+    "strict": false
+  },
+  {
+    "id": 162,
+    "content": "Welke 18e-eeuwse componist schreef in 1791 - het jaar van zijn dood - een beroemd requiem? Het was zijn laatste compositie, hij kon het niet meer voltooien.",
+    "correctAnswers": [
+      "Wolfgang Amadeus Mozart",
+      "Mozart"
+    ],
+    "strict": false
+  },
+  {
+    "id": 163,
+    "content": "Welk Engels woord gebruiken we voor een nietpistool, waarmee je onder grote druk nietjes of spijkers in hout kunt schieten?",
+    "correctAnswers": [
+      "Tacker"
+    ],
+    "strict": false
+  },
+  {
+    "id": 164,
+    "content": "Op welke dag in de Goede Week werd Jezus verraden door Judas Iskariot?",
+    "correctAnswers": [
+      "Witte Donderdag",
+      "Donderdag"
+    ],
+    "strict": false
+  },
+  {
+    "id": 165,
+    "content": "Hoe heet het vriendje van Catootje in de strip Jan, Jans en de kinderen?",
+    "correctAnswers": [
+      "Jeroen"
+    ],
+    "strict": false
+  },
+  {
+    "id": 166,
+    "content": "Op welke berg ligt het Drielandenpunt?",
+    "correctAnswers": [
+      "Vaalserberg"
+    ],
+    "strict": false
+  },
+  {
+    "id": 167,
+    "content": "De Olympische Spelen kennen twee estafettes bij atletiek. De ene is de 4x100 meter. De ander is de 4x... meter? Vul alleen het getal in.",
+    "correctAnswers": [
+      "400"
+    ],
+    "strict": true
+  },
+  {
+    "id": 168,
+    "content": "Over wie zei Chantal Janzen: 'Wat kan ze hockeyen hè, die meid'? Vul alleen de voornaam in.",
+    "correctAnswers": [
+      "Fatima"
+    ],
+    "strict": false
+  },
+  {
+    "id": 169,
+    "content": "Iemand rijdt 90 km/u. Hoeveel meter per seconde is dat? Vul alleen het getal in.",
+    "correctAnswers": [
+      "25"
+    ],
+    "strict": true
+  },
+  {
+    "id": 170,
+    "content": "Hoe heet een basissaus van boter, azijn en eierdooiers?",
+    "correctAnswers": [
+      "Hollandaisesaus",
+      "Hollandaise"
+    ],
+    "strict": false
+  },
+  {
+    "id": 171,
+    "content": "Wie is de acteur die de vader speelt in de kinderfilm 'Matilda', naar het boek van Roald Dahl?",
+    "correctAnswers": [
+      "Danny de Vito",
+      "De Vito"
+    ],
+    "strict": false
+  },
+  {
+    "id": 172,
+    "content": "Het is een dans, een kledingstuk, en een hoofddeksel. Welk woord zoek ik?",
+    "correctAnswers": [
+      "Bolero"
+    ],
+    "strict": false
+  },
+  {
+    "id": 173,
+    "content": "Eind 2012 verscheen de autobiografie van Pete Townshend. Van welke rockgroep is hij al tientallen jaren de gitarist en belangrijkste songwriter?",
+    "correctAnswers": [
+      "The Who"
+    ],
+    "strict": false
+  },
+  {
+    "id": 174,
+    "content": "De Islam kent twee belangrijke feesten. Het Offerfeest is het grote feest, welk feest wordt het kleine feest genoemd?",
+    "correctAnswers": [
+      "Suikerfeest"
+    ],
+    "strict": false
+  },
+  {
+    "id": 175,
+    "content": "Wat is het motto van de Verenigde Staten, dat sinds 1956 op elk dollarbiljet staat? Het zijn vier woorden.",
+    "correctAnswers": [
+      "In God we trust"
+    ],
+    "strict": false
+  },
+  {
+    "id": 176,
+    "content": "Horen obligaties tot het eigen of het vreemd vermogen van een bedrijf?",
+    "correctAnswers": [
+      "Vreemd vermogen",
+      "Vreemd"
+    ],
+    "strict": false
+  },
+  {
+    "id": 177,
+    "content": "In welk Zuid-Amerikaans land ligt de stad Medellín, berucht vanwege geweld en criminaliteit?",
+    "correctAnswers": [
+      "Colombia"
+    ],
+    "strict": false
+  },
+  {
+    "id": 178,
+    "content": "Hoe heetten de oorlogen tussen Rome en Carthago?",
+    "correctAnswers": [
+      "Punische oorlogen",
+      "Punische",
+      "Punisch"
+    ],
+    "strict": false
   }
 ]
