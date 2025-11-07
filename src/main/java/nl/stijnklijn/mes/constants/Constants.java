@@ -10,6 +10,7 @@ public class Constants {
     public static final Integer INITIAL_STAKE = 10;
     public static final Integer COUNT_DOWN = 10;
     public static final Integer ROUND_TIME = 60;
+    public static final Double SIMILARITY_CUTOFF = 0.85;
 
     public static final String QUESTIONS_FILE = "/static/questions.json";
 

@@ -4,15 +4,17 @@ import nl.stijnklijn.mes.context.GameContext;
 import nl.stijnklijn.mes.event.AnswersSubmittedEvent;
 import nl.stijnklijn.mes.model.Answer;
 import nl.stijnklijn.mes.state.helper.AssignBidHelper;
+import nl.stijnklijn.mes.state.helper.EvaluateAnswerHelper;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class AwaitAnswersState implements State<AnswersSubmittedEvent> {
 
+    private final EvaluateAnswerHelper evaluateAnswerHelper;
     private final AssignBidHelper assignBidHelper;
 
-    public AwaitAnswersState(AssignBidHelper assignBidHelper) {
+    public AwaitAnswersState(EvaluateAnswerHelper evaluateAnswerHelper, AssignBidHelper assignBidHelper) {
+        this.evaluateAnswerHelper = evaluateAnswerHelper;
         this.assignBidHelper = assignBidHelper;
     }
 
@@ -25,11 +27,7 @@ public class AwaitAnswersState implements State<AnswersSubmittedEvent> {
                 .filter(q -> q.getId().equals(a.getId()))
                 .findFirst()
                 .ifPresent(q -> {
-                    a.setCorrectAnswers(q.getCorrectAnswers());
-                    a.setCorrect(q.getCorrectAnswers().stream()
-                            .map(String::toLowerCase)
-                            .collect(Collectors.toSet())
-                            .contains(a.getContent().toLowerCase()));
+                    evaluateAnswerHelper.evaluateAnswer(q, a);
                 }));
 
         ctx.getSelf(e.getPlayer().getId()).setAnswers(answers);

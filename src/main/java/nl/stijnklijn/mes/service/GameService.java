@@ -8,6 +8,7 @@ import nl.stijnklijn.mes.state.AwaitAnswersState;
 import nl.stijnklijn.mes.state.AwaitBidState;
 import nl.stijnklijn.mes.state.AwaitOpponentState;
 import nl.stijnklijn.mes.state.helper.AssignBidHelper;
+import nl.stijnklijn.mes.state.helper.EvaluateAnswerHelper;
 import nl.stijnklijn.mes.state.helper.NextRoundHelper;
 import org.springframework.stereotype.Service;
 
@@ -23,10 +24,11 @@ public class GameService {
     private final GameMapper gameMapper;
 
     private final NextRoundHelper nextRoundHelper = new NextRoundHelper();
+    private final EvaluateAnswerHelper evaluateAnswerHelper = new EvaluateAnswerHelper();
     private final AssignBidHelper assignBidHelper = new AssignBidHelper();
 
     private final AwaitOpponentState awaitOpponentState = new AwaitOpponentState(nextRoundHelper);
-    private final AwaitAnswersState awaitAnswersState = new AwaitAnswersState(assignBidHelper);
+    private final AwaitAnswersState awaitAnswersState = new AwaitAnswersState(evaluateAnswerHelper, assignBidHelper);
     private final AwaitBidState awaitBidState = new AwaitBidState(nextRoundHelper, assignBidHelper);
 
     public GameService(SessionService sessionService, MessageService messageService,
