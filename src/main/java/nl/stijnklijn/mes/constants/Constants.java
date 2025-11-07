@@ -15,7 +15,6 @@ public class Constants {
 
     //Shared
     public static final String GAME_ID_HEADER = "Game-Id";
-    public static final String ERROR_HEADER = "Error";
     public static final String CREATE_GAME_PATH = "/create-game";
     public static final String CAN_JOIN_PATH = "/can-join";
     public static final String WEBSOCKET_SUBSCRIBE_BASE_PATH = "/subscribe";

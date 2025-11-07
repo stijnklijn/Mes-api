@@ -3,6 +3,8 @@ package nl.stijnklijn.mes.service;
 import lombok.extern.slf4j.Slf4j;
 import nl.stijnklijn.mes.context.GameContext;
 import nl.stijnklijn.mes.enums.MessageType;
+import nl.stijnklijn.mes.exception.GameFullException;
+import nl.stijnklijn.mes.exception.PlayerNameTakenException;
 import nl.stijnklijn.mes.model.Message;
 import nl.stijnklijn.mes.model.Player;
 import org.springframework.context.event.EventListener;
@@ -59,11 +61,11 @@ public class SessionService {
         GameContext ctx = gameIdToGameContext.get(gameId);
 
         if (gameFull(gameId)) {
-            throw new RuntimeException("Het spel is vol.");
+            throw new GameFullException(gameId);
         }
 
         if (playerNameTaken(gameId, player.getName())) {
-            throw new RuntimeException("Er zit al een speler met deze naam in het spel.");
+            throw new PlayerNameTakenException(player.getId(), gameId);
         }
 
         List<Player> players = gameIdToPlayers.get(gameId);

@@ -1,6 +1,9 @@
 package nl.stijnklijn.mes.controller;
 
 import lombok.extern.slf4j.Slf4j;
+import nl.stijnklijn.mes.exception.GameFullException;
+import nl.stijnklijn.mes.exception.NoSuchGameException;
+import nl.stijnklijn.mes.exception.PlayerNameTakenException;
 import nl.stijnklijn.mes.model.*;
 import nl.stijnklijn.mes.service.GameService;
 import org.springframework.http.HttpHeaders;
@@ -20,7 +23,7 @@ import static nl.stijnklijn.mes.constants.Constants.*;
 @RestController
 public class GameController {
 
-   private final GameService gameService;
+    private final GameService gameService;
 
     public GameController(GameService gameService) {
         this.gameService = gameService;
@@ -41,24 +44,17 @@ public class GameController {
 
     @GetMapping("/rest" + CAN_JOIN_PATH + "/{gameId}/{playerName}")
     public ResponseEntity<String> canJoin(@PathVariable String gameId, @PathVariable String playerName) {
-        String errorMessage = null;
 
         if (!gameService.gameExists(gameId)) {
-            errorMessage = String.format("Er bestaat geen spel met code %s.", gameId);
+            throw new NoSuchGameException(gameId);
         }
 
         if (gameService.gameFull(gameId)) {
-            errorMessage = String.format("Het spel met code %s is vol.", gameId);
+            throw new GameFullException(gameId);
         }
 
         if (gameService.playerNameTaken(gameId, playerName)) {
-            errorMessage = String.format("Er zit al een speler met naam %s in spel %s.", playerName, gameId);
-        }
-
-        if (errorMessage != null) {
-            HttpHeaders headers = new HttpHeaders();
-            headers.add(ERROR_HEADER, errorMessage);
-            return new ResponseEntity<>(headers, HttpStatus.FORBIDDEN);
+            throw new PlayerNameTakenException(gameId, playerName);
         }
 
         return new ResponseEntity<>(HttpStatus.OK);

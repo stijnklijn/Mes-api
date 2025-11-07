@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class MesApplication {
 
+    //TODO: Van de events nog records maken.
     //TODO: Alle input valideren.
-    //TODO: CustomExceptions implementeren in plaats van RunTimeExceptions.
     //TODO: Meer vragen implementeren.
     /*
     Verwerkte afleveringen:

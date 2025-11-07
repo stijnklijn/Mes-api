@@ -11,7 +11,6 @@ import org.springframework.web.cors.CorsConfiguration;
 import java.util.Collections;
 import java.util.List;
 
-import static nl.stijnklijn.mes.constants.Constants.ERROR_HEADER;
 import static nl.stijnklijn.mes.constants.Constants.GAME_ID_HEADER;
 
 @Configuration
@@ -30,7 +29,7 @@ public class SecurityConfig {
                     config.setAllowedOrigins(List.of(CLIENT_URLS));
                     config.setAllowedMethods(List.of("GET", "OPTIONS"));
                     config.setAllowedHeaders(Collections.singletonList("*"));
-                    config.setExposedHeaders(List.of(GAME_ID_HEADER, ERROR_HEADER));
+                    config.setExposedHeaders(List.of(GAME_ID_HEADER));
                     return config;
                 }))
                 .authorizeHttpRequests(request -> request
