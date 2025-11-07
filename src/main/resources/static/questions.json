@@ -100,7 +100,7 @@
     "correctAnswers": [
       "Ondank"
     ],
-    "strict": false
+    "strict": true
   },
   {
     "id": 12,
@@ -948,6 +948,7 @@
     "content": "Hoe wordt de schelp ensis in het Nederlands ook wel genoemd?",
     "correctAnswers": [
       "Scheermes",
+      "Scheermesje",
       "Mesheft",
       "Zwaardschede",
       "Schede"
@@ -1265,6 +1266,8 @@
     "id": 150,
     "content": "Floris de Vijfde werd na een complot van vier edelen vermoord. Dit waren Gerard van Velsen, Herman van Woerden, Willem van Zaanden, en ...?",
     "correctAnswers": [
+      "Gijsbrecht van Aemstel",
+      "Van Aemstel",
       "Gijsbrecht van Amstel",
       "Van Amstel"
     ],
