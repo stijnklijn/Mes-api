@@ -24,7 +24,7 @@ public class AwaitAnswersState implements State<AnswersSubmittedEvent> {
         List<Answer> answers = (List<Answer>) e.getPayload();
 
         answers.forEach(a -> ctx.getGame().getQuestions().stream()
-                .filter(q -> q.getId().equals(a.getId()))
+                .filter(q -> q.id().equals(a.getId()))
                 .findFirst()
                 .ifPresent(q -> {
                     evaluateAnswerHelper.evaluateAnswer(q, a);

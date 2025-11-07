@@ -11,10 +11,10 @@ import static nl.stijnklijn.mes.constants.Constants.SIMILARITY_CUTOFF;
 public class EvaluateAnswerHelper {
 
     public void evaluateAnswer(Question question, Answer playerAnswer) {
-        playerAnswer.setCorrectAnswers(question.getCorrectAnswers());
+        playerAnswer.setCorrectAnswers(question.correctAnswers());
         playerAnswer.setCorrect(false);
 
-        for (String correctAnswer : question.getCorrectAnswers()) {
+        for (String correctAnswer : question.correctAnswers()) {
             if (isCorrect(question, correctAnswer, playerAnswer.getContent())) {
                 playerAnswer.setCorrect(true);
             }
@@ -22,7 +22,7 @@ public class EvaluateAnswerHelper {
     }
 
     private boolean isCorrect(Question question, String correctAnswer, String playerAnswer) {
-        if (question.getStrict()) {
+        if (question.strict()) {
             return correctAnswer.equalsIgnoreCase(playerAnswer);
         } else {
             return similarity(normalize(correctAnswer), normalize(playerAnswer)) >= SIMILARITY_CUTOFF;
