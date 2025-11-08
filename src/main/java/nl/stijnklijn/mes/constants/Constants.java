@@ -29,8 +29,8 @@ public class Constants {
     public static final String HEARTBEAT_PATH = "/heartbeat";
     public static final Integer HEARTBEAT_INTERVAL = 30;
     public static final Integer MAX_ROUNDS = 4;
-    public static final Integer COUNT_DOWN = 5;
-    public static final Integer ROUND_TIME = 10;
+    public static final Integer COUNT_DOWN = 10;
+    public static final Integer ROUND_TIME = 60;
     public static final Integer MAX_INFO_MESSAGES = 500;
     public static final Integer MAX_CONTENT_LENGTH = 256;
     public static final List<Integer> ALLOWED_BIDS = List.of(10, 20, 30, 40, 50, 0);
