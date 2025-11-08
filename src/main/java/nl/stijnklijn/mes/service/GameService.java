@@ -2,6 +2,7 @@ package nl.stijnklijn.mes.service;
 
 import nl.stijnklijn.mes.context.GameContext;
 import nl.stijnklijn.mes.enums.MessageType;
+import nl.stijnklijn.mes.exception.InvalidDataException;
 import nl.stijnklijn.mes.mapper.GameMapper;
 import nl.stijnklijn.mes.model.*;
 import nl.stijnklijn.mes.state.AwaitAnswersState;
@@ -15,8 +16,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.UUID;
 
-import static nl.stijnklijn.mes.constants.Constants.GAME_ID_END_INDEX;
-import static nl.stijnklijn.mes.constants.Constants.GAME_ID_START_INDEX;
+import static nl.stijnklijn.mes.constants.Constants.*;
 
 @Service
 public class GameService {
@@ -66,21 +66,35 @@ public class GameService {
     }
 
     public synchronized void joinGame(Player player, String gameId) {
+        if (player.getName().length() > MAX_NAME_LENGTH) {
+            throw new InvalidDataException();
+        }
         GameContext ctx = sessionService.registerPlayer(player, gameId.toUpperCase());
         ctx.handleJoin(player);
     }
 
     public void submitAnswers(String playerId, List<Answer> answers) {
+        for (Answer answer : answers) {
+            if (answer.getContent().length() > MAX_CONTENT_LENGTH) {
+                throw new InvalidDataException();
+            }
+        }
         GameContext ctx = sessionService.getGameContext(playerId);
         ctx.handleAnswers(new Player(playerId, null), answers);
     }
 
     public void submitBid(String playerId, Bid bid) {
+        if (!ALLOWED_BIDS.contains(bid.amount())) {
+            throw new InvalidDataException();
+        }
         GameContext ctx = sessionService.getGameContext(playerId);
         ctx.handleBid(new Player(playerId, null), bid);
     }
 
     public void chat(String playerId, ChatMessage chatMessage) {
+        if (chatMessage.content().length() > MAX_CONTENT_LENGTH) {
+            throw new InvalidDataException();
+        }
         GameContext ctx = sessionService.getGameContext(playerId);
         ctx.broadcast(new Message(MessageType.INFO, String.format("%s zegt: %s", chatMessage.name(), chatMessage.content())));
 

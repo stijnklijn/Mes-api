@@ -549,7 +549,8 @@
     "id": 65,
     "content": "Hoeveel blokjes van 3x3x3 passen er in een doos van 6x6x6?",
     "correctAnswers": [
-      "8", "Acht"
+      "8",
+      "Acht"
     ],
     "strict": true
   },
@@ -1504,6 +1505,287 @@
       "Punische oorlogen",
       "Punische",
       "Punisch"
+    ],
+    "strict": false
+  },
+  {
+    "id": 179,
+    "content": "Welke Belgische stad heeft de bijnaam 'Die Scone'?",
+    "correctAnswers": [
+      "Brugge"
+    ],
+    "strict": false
+  },
+  {
+    "id": 180,
+    "content": "Er waren broers onder de twaalf apostelen van Jezus. Wie was de broer van Jakobus?",
+    "correctAnswers": [
+      "Johannes"
+    ],
+    "strict": false
+  },
+  {
+    "id": 181,
+    "content": "Welk woord is de persoonsvorm in de zin 'Nana Mouskouri heeft weer mooi gezongen'?",
+    "correctAnswers": [
+      "Heeft"
+    ],
+    "strict": false
+  },
+  {
+    "id": 182,
+    "content": "Een treinkaartje kort normaal 34 euro. Hoeveel betaal je als je een kortingskaart hebt van 40%? Vul alleen het getal in.",
+    "correctAnswers": [
+      "20,40",
+      "20.40"
+    ],
+    "strict": true
+  },
+  {
+    "id": 183,
+    "content": "Met welke bekende rapper zong Beyoncé het nummer 'Crazy in love'?",
+    "correctAnswers": [
+      "Jay-Z"
+    ],
+    "strict": false
+  },
+  {
+    "id": 184,
+    "content": "Hoe heet de as die ervoor zorgt dat de kleppen van een verbrandingsmotor op en neer gaan?",
+    "correctAnswers": [
+      "Nokkenas"
+    ],
+    "strict": false
+  },
+  {
+    "id": 185,
+    "content": "Hoe heten stoffen zoals dopamine, serotonine en endorfine, die helpen bij het doorgeven van zenuwprikkels?",
+    "correctAnswers": [
+      "Neurotransmitters"
+    ],
+    "strict": false
+  },
+  {
+    "id": 186,
+    "content": "Wie verbood Jantje om pruimen te plukken in het gedicht van Hiëronymus van Alphen?",
+    "correctAnswers": [
+      "Zijn vader",
+      "Vader"
+    ],
+    "strict": false
+  },
+  {
+    "id": 187,
+    "content": "Wat is het beroep van iemand die RA achter zijn naam heeft?",
+    "correctAnswers": [
+      "Accountant",
+      "Registeraccountant"
+    ],
+    "strict": false
+  },
+  {
+    "id": 188,
+    "content": "Uit welk land was de architect Oscar Niemeyer afkomstig?",
+    "correctAnswers": [
+      "Brazilië"
+    ],
+    "strict": false
+  },
+  {
+    "id": 189,
+    "content": "Het is een sport, een modelauto en een deining op zee. Welk woord zoek ik?",
+    "correctAnswers": [
+      "Golf"
+    ],
+    "strict": false
+  },
+  {
+    "id": 190,
+    "content": "Wat is de Nederlandse benaming voor natuurgebied Hautes Fagnes, dat grotendeels in België ligt?",
+    "correctAnswers": [
+      "De Hoge Venen"
+    ],
+    "strict": false
+  },
+  {
+    "id": 191,
+    "content": "Hoeveel is 2 miljoen minus 4500? Noteer het antwoord zonder punten of komma's.",
+    "correctAnswers": [
+      "1995500"
+    ],
+    "strict": true
+  },
+  {
+    "id": 192,
+    "content": "Wat is de chemische formule van waterstofperoxide?",
+    "correctAnswers": [
+      "H2O2"
+    ],
+    "strict": true
+  },
+  {
+    "id": 193,
+    "content": "In welke eeuw nam Marco Polo de Zijderoute?",
+    "correctAnswers": [
+      "13e eeuw",
+      "13",
+      "Dertiende eeuw",
+      "Dertiende",
+      "Dertien"
+    ],
+    "strict": false
+  },
+  {
+    "id": 194,
+    "content": "Hoe heet de hoogste fluit in een symfonieorkest?",
+    "correctAnswers": [
+      "Piccolo"
+    ],
+    "strict": false
+  },
+  {
+    "id": 195,
+    "content": "Wat is het Nederlandse woord voor een bissectrice?",
+    "correctAnswers": [
+      "Deellijn"
+    ],
+    "strict": false
+  },
+  {
+    "id": 196,
+    "content": "Van wie is de wiskundige stelling 'A kwadraat plus B kwadraat is C kwadraat'?",
+    "correctAnswers": [
+      "Pythagoras"
+    ],
+    "strict": false
+  },
+  {
+    "id": 197,
+    "content": "Hoe heet de drummer van The Muppets?",
+    "correctAnswers": [
+      "Animal"
+    ],
+    "strict": false
+  },
+  {
+    "id": 198,
+    "content": "Van welk eiland is Nicosia de hoofdstad?",
+    "correctAnswers": [
+      "Cyprus"
+    ],
+    "strict": false
+  },
+  {
+    "id": 199,
+    "content": "Een Bloody Mary bestaat uit wodka en...?",
+    "correctAnswers": [
+      "Tomatensap"
+    ],
+    "strict": false
+  },
+  {
+    "id": 200,
+    "content": "Hoe heet bij American Football de speler die als spelverdeler wordt beschouwd?",
+    "correctAnswers": [
+      "Quarterback"
+    ],
+    "strict": false
+  },
+  {
+    "id": 201,
+    "content": "Hoe heet in Engeland de geweldloze revolutie in 1688 waarbij Willem de Derde koning van Engeland werd?",
+    "correctAnswers": [
+      "Glorious Revolution",
+      "Glorious"
+    ],
+    "strict": false
+  },
+  {
+    "id": 202,
+    "content": "Hoe heet de kunstbeweging waarvan Wim T. Schippers deel uitmaakte?",
+    "correctAnswers": [
+      "Fluxus"
+    ],
+    "strict": false
+  },
+  {
+    "id": 203,
+    "content": "Wat bedoelen ze in straattaal met patta's?",
+    "correctAnswers": [
+      "Schoenen"
+    ],
+    "strict": false
+  },
+  {
+    "id": 204,
+    "content": "Over wie zei Johan Cruyff: 'Ze kunnen niet van je winnen, maar je kunt wel van ze verliezen'?",
+    "correctAnswers": [
+      "Italianen"
+    ],
+    "strict": false
+  },
+  {
+    "id": 205,
+    "content": "Hoe heet in de bruggenbouw een grote stalen of betonnen kolom waaraan de staalkabels bevestigd zijn waar de brug aan hangt?",
+    "correctAnswers": [
+      "Pyloon"
+    ],
+    "strict": false
+  },
+  {
+    "id": 206,
+    "content": "Volgens een Joodse legende maakte Rabbi Löw in Praag een figuur uit klei om de mensen te helpen bij zware arbeid. Hoe heet die figuur?",
+    "correctAnswers": [
+      "Golem"
+    ],
+    "strict": false
+  },
+  {
+    "id": 207,
+    "content": "Het is een jongensnaam, een kapsel en een slee. Welk woord zoek ik?",
+    "correctAnswers": [
+      "Bob"
+    ],
+    "strict": false
+  },
+  {
+    "id": 208,
+    "content": "Een badmintonracket met shuttle kost 220 cent. Het racket kost 200 cent meer dan de shuttle. Hoeveel cent kost de shuttle? Geef alleen het getal.",
+    "correctAnswers": [
+      "10"
+    ],
+    "strict": true
+  },
+  {
+    "id": 209,
+    "content": "Ryan Giggs speelde zijn hele professionele carrière voor Manchester United. Voor welk land kwam hij uit?",
+    "correctAnswers": [
+      "Wales"
+    ],
+    "strict": false
+  },
+  {
+    "id": 210,
+    "content": "Wat voor soort plant draagt de naam schoonmoedersstoel?",
+    "correctAnswers": [
+      "Cactus"
+    ],
+    "strict": false
+  },
+  {
+    "id": 211,
+    "content": "Welke homo universalis was secretaris van Frederik Hendrik, Willem de Tweede en Willem de Derde? Hij componeerde ook en schreef epigrammen.",
+    "correctAnswers": [
+      "Constantijn Huygens",
+      "Huygens"
+    ],
+    "strict": false
+  },
+  {
+    "id": 212,
+    "content": "Uit welk land is de likeur drambuie afkomstig?",
+    "correctAnswers": [
+      "Schotland"
     ],
     "strict": false
   }

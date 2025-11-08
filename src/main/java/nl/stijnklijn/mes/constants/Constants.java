@@ -1,10 +1,13 @@
 package nl.stijnklijn.mes.constants;
 
+import java.util.List;
+
 public class Constants {
 
     //Internal
     public static final String QUESTIONS_FILE = "/static/questions.json";
     public static final String PLAYER_ID_QUERY_STRING = "playerId";
+    public static final Integer MAX_NAME_LENGTH = 10;
     public static final Integer GAME_ID_START_INDEX = 9;
     public static final Integer GAME_ID_END_INDEX = 13;
     public static final Integer PLAYERS_PER_GAME = 2;
@@ -29,7 +32,8 @@ public class Constants {
     public static final Integer COUNT_DOWN = 5;
     public static final Integer ROUND_TIME = 10;
     public static final Integer MAX_INFO_MESSAGES = 500;
-    public static final Integer MAX_CHAT_MESSAGE_LENGTH = 256;
+    public static final Integer MAX_CONTENT_LENGTH = 256;
+    public static final List<Integer> ALLOWED_BIDS = List.of(10, 20, 30, 40, 50, 0);
 
     //Computed
     public static final Integer QUESTIONS_PER_GAME = QUESTIONS_PER_ROUND * MAX_ROUNDS;

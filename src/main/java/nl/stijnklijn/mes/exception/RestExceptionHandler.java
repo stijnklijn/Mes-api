@@ -8,26 +8,26 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 
 @Slf4j
 @ControllerAdvice
-public class GlobalExceptionHandler {
+public class RestExceptionHandler {
 
     @ExceptionHandler
-    public ResponseEntity<GlobalExceptionResponse> handleNoSuchGameException(NoSuchGameException e) {
+    public ResponseEntity<RestExceptionResponse> handleNoSuchGameException(NoSuchGameException e) {
         return getExceptionResponse(e, 404);
     }
 
     @ExceptionHandler
-    public ResponseEntity<GlobalExceptionResponse> handleGameFullException(GameFullException e) {
+    public ResponseEntity<RestExceptionResponse> handleGameFullException(GameFullException e) {
         return getExceptionResponse(e, 403);
     }
 
     @ExceptionHandler
-    public ResponseEntity<GlobalExceptionResponse> handlePlayerNameTakenException(PlayerNameTakenException e) {
+    public ResponseEntity<RestExceptionResponse> handlePlayerNameTakenException(PlayerNameTakenException e) {
         return getExceptionResponse(e, 409);
     }
 
-    private ResponseEntity<GlobalExceptionResponse> getExceptionResponse(Exception e, int status) {
+    private ResponseEntity<RestExceptionResponse> getExceptionResponse(Exception e, int status) {
         log.warn(e.getMessage());
-        return new ResponseEntity<>(new GlobalExceptionResponse(HttpStatusCode.valueOf(status), e.getMessage()),
+        return new ResponseEntity<>(new RestExceptionResponse(HttpStatusCode.valueOf(status), e.getMessage()),
                 HttpStatusCode.valueOf(status));
     }
 

@@ -6,8 +6,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class MesApplication {
 
-    //TODO: Van de events nog records maken.
-    //TODO: Alle input valideren.
     //TODO: Meer vragen implementeren.
     /*
     Verwerkte afleveringen:
@@ -20,6 +18,8 @@ public class MesApplication {
     2013 voorjaar afl 6.
     2013 voorjaar afl 7.
     2013 voorjaar afl 8.
+    2013 voorjaar afl 9.
+    2013 voorjaar afl 10.
      */
 
     public static void main(String[] args) {
